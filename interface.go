@@ -3,7 +3,7 @@ package fb2
 import (
 	"encoding/xml"
 
-	proto "github.com/centrypoint/fb2/prototype"
+	proto "github.com/kharbiyanov/fb2/prototype"
 )
 
 // List of interfaces for integration

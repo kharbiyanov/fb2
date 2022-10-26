@@ -3,8 +3,9 @@ package fb2
 import (
 	"io"
 
-	prototype "github.com/centrypoint/fb2/prototype"
 	"golang.org/x/text/encoding/charmap"
+
+	prototype "github.com/kharbiyanov/fb2/prototype"
 )
 
 // get xlink from enclosed tag image

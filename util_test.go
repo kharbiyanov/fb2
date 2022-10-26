@@ -3,7 +3,7 @@ package fb2_test
 import (
 	"testing"
 
-	"github.com/centrypoint/fb2"
+	"github.com/kharbiyanov/fb2"
 )
 
 func TestToPB(t *testing.T) {
