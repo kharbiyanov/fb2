@@ -29,11 +29,12 @@ func NewReader(data io.Reader) *Parser {
 
 // CharsetReader required for change encodings
 func (p *Parser) CharsetReader(c string, i io.Reader) (r io.Reader, e error) {
+	r = i
 	switch c {
 	case "windows-1251":
 		r = decodeWin1251(i)
 	}
-	return
+	return r, nil
 }
 
 // Unmarshal parse data to FB2 type
